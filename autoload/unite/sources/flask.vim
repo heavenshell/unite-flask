@@ -23,17 +23,17 @@ endfunction
 let s:app = fnamemodify(s:flask_app(), ":t:r")
 
 let s:places = [
-      \ {'name': ''         , 'path': ''          },
-      \ {'name': 'configs'  , 'path': '/configs'  },
-      \ {'name': 'i18n'     , 'path': '/i18n'     },
-      \ {'name': 'plugins'  , 'path': '/plugins'  },
-      \ {'name': 'templates', 'path': '/templates'},
-      \ {'name': 'utils'    , 'path': '/utils'    },
-      \ {'name': 'forms'    , 'path': '/forms'    },
-      \ {'name': 'models'   , 'path': '/models'   },
-      \ {'name': 'static'   , 'path': '/static'   },
-      \ {'name': 'tests'    , 'path': '/tests'    },
-      \ {'name': 'views'    , 'path': '/views'    },
+      \ {'name': ''          , 'path': ''           },
+      \ {'name': 'configs'   , 'path': '/configs'   },
+      \ {'name': 'i18n'      , 'path': '/i18n'      },
+      \ {'name': 'extensions', 'path': '/extensions'},
+      \ {'name': 'templates' , 'path': '/templates' },
+      \ {'name': 'utils'     , 'path': '/utils'     },
+      \ {'name': 'forms'     , 'path': '/forms'     },
+      \ {'name': 'models'    , 'path': '/models'    },
+      \ {'name': 'static'    , 'path': '/static'    },
+      \ {'name': 'tests'     , 'path': '/tests'     },
+      \ {'name': 'views'     , 'path': '/views'     },
       \  ]
 if exists('g:unite_source_flask')
   s:places = g:unite_source_flask
