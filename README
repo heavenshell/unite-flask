@@ -18,7 +18,7 @@ Default directory
 Show default directory structure below.
   yourproject/configs
   yourproject/i18n
-  yourproject/plugins
+  yourproject/extensions
   yourproject/templates
   yourproject/utils
   yourproject/forms
