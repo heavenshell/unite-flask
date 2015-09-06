@@ -21,6 +21,8 @@ Example
 Default directory
 -----------------
 Show default directory structure below.
+
+.. code::
   yourproject/configs
   yourproject/i18n
   yourproject/extensions
